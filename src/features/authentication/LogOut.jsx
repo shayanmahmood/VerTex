@@ -3,7 +3,7 @@ import { HiArrowRightOnRectangle } from "react-icons/hi2";
 import { useLogOut } from "./hooks/useLogOut";
 import SpinnerMini from "../../ui/SpinnerMini";
 
-function LogOut() {
+function useLogOut() {
   const { logOut, isLoading } = useLogOut();
 
   return (
@@ -13,4 +13,6 @@ function LogOut() {
   );
 }
 
-export default LogOut;
+export default useEmptyCart
+
+

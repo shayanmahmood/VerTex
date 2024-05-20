@@ -1,6 +1,5 @@
 import { useQuery } from "@tanstack/react-query";
 import { CurrentUser } from "../../../services/apiAuthentication";
-import toast from "react-hot-toast";
 
 export function useUser() {
 

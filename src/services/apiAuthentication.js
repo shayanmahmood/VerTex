@@ -59,10 +59,7 @@ export async function LogOutUser() {
 
 
 export async function UpdateUser({ password, avatar, fullName }) {
-
     let userData;
-
-
 
     if (password) userData = { password }
     if (fullName) userData = { data: { fullName } }
